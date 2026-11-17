@@ -4,8 +4,7 @@ This directory contains a compact reference implementation of the **two-dimensio
 
 It is deliberately not a reproduction package for the complete paper. In particular, it does **not** contain the Navier--Stokes equations, velocity, pressure projection, hydrodynamic coupling, gravity, wall boundary conditions, the original multigrid implementation, or the three-dimensional examples. Consequently, it cannot reproduce the fluid-coupled numerical experiments in the paper.
 
-No open-source license has been selected or included. A license must be chosen by
-the authors before public release.
+No open-source license is provided; all rights are reserved unless otherwise stated.
 
 ## Files
 
@@ -195,8 +194,4 @@ The rates approach two under time-step refinement, consistent with the BE-starte
 
 ## Source and license status
 
-The release candidate contains one independently organized C source file and uses
-only standard-library headers; no third-party source file is bundled. This is a
-source-tree inspection, not a legal determination of ownership. No `LICENSE` file
-is included because the authors have not yet selected a license. Public release
-should wait until the copyright holder and license terms are confirmed.
+This repository contains a standalone C reference implementation without bundled third-party source files. No open-source license is provided; all rights are reserved unless otherwise stated.
