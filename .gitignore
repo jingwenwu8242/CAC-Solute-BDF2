@@ -1,0 +1,31 @@
+# Compiler and linker products
+build/
+*.exe
+*.obj
+*.o
+*.out
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.dll
+
+# IDE and operating-system files
+.vs/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# CMake-generated files, if a local build is used
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Locally regenerated run directories
+results_equal_D/
+results_variable_D/
+results_time_convergence/
+
+# Temporary files
+*.tmp
+*~
